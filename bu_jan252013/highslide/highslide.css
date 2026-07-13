@@ -1,0 +1,19 @@
+
+.highslide-container div {}
+.highslide {outline:none; text-decoration:none;}
+.highslide img {cursor:url(/highslide/graphics/zoomin.cur), pointer; border:none;}
+.highslide:hover img {border-color:#000000;}
+.highslide-active-anchor img {visibility:hidden;}
+.highslide-gallery .highslide-active-anchor img {border-color:#000000; visibility:visible; cursor:default;}
+.highslide-image {border:none; background:#000000; padding:0px 25px 0px 25px;}
+.highslide-wrapper, .highslide-outline {background:#000000;}
+.highslide-image-blur {}
+.highslide-number {font-weight:bold; color:#000000;}
+
+.highslide-caption {display:none; border-top:none; padding:10px 5px 10px 5px; background:#000000; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#e0a43e;}
+.highslide-caption a {font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#e0a43e; text-decoration:underline;}
+.highslide-caption a:hover {font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#e0a43e; text-decoration:none;}
+
+.highslide-heading {display:none; background:#000000; padding:15px 0px 15px 0px; font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:normal; color:#afafaf;}
+.highslide-dimming {position:absolute; background:#000000;}
+.highslide-loading {display:block; color:#000000; font-size:9px; font-weight:bold; text-transform:uppercase; text-decoration:none; padding:3px; border:1px solid white; background-color:white; padding-left:22px; background-image:url(graphics/loader.white.gif); background-repeat:no-repeat; background-position:3px 1px;}
